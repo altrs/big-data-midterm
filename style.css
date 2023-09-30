@@ -8,11 +8,23 @@ h3{
 	margin-top: 5px;
 }
 
+a{
+	color: #f55d33;
+	font-weight: 900;
+	border: 1px solid;
+	padding: 5px;
+}
+
+a:hover{
+	background-color: #d9a455;
+}
+
 #container{
+	color: #202121;
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 20px;
 	text-align: center;
 	font-family: Arial, serif;
 }
@@ -20,4 +32,25 @@ h3{
 #vis{
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.text{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.column{
+	display: flex;
+	margin: 50px;
+	margin-top: 0px;
+}
+
+.side{
+	border: 1px solid;
+	width: 50%;
+	height: auto;
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 10px;
 }
